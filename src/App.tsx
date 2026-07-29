@@ -22,7 +22,7 @@ export default function App() {
   return (
     <div className="site-shell">
       <header className="site-header">
-        <a className="wordmark" href="#top">Eiman John Espedido</a>
+        <a className="wordmark" href="#top"><img src="/ej-mark.svg" alt="" /> <span>Eiman John Espedido</span></a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation" aria-expanded={menuOpen}>
           {menuOpen ? <X size={20} strokeWidth={1.8} /> : <Menu size={20} strokeWidth={1.8} />}
         </button>

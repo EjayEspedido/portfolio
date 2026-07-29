@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title">
+  <title>EJ Espedido monogram</title>
+  <rect width="160" height="160" fill="#294557"/>
+  <rect x="19" y="19" width="122" height="122" fill="none" stroke="#88b7d5" stroke-width="6"/>
+  <text x="80" y="88" fill="#fbffe0" font-family="Arial, sans-serif" font-size="59" font-weight="400" text-anchor="middle" letter-spacing="-5">EJ</text>
+  <text x="80" y="116" fill="#fbffe0" font-family="Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle" letter-spacing="1">ESPEDIDO</text>
+</svg>

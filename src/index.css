@@ -8,7 +8,8 @@ body { margin: 0; min-width: 320px; background: #fbfbfa; zoom: 1.25; }
 a { color: inherit; text-underline-offset: 3px; }
 .site-shell { width: min(100% - 88px, 1500px); margin: 0 auto; }
 .site-header { height: 132px; display: flex; justify-content: space-between; align-items: center; }
-.wordmark { font-size: 15px; font-weight: 600; letter-spacing: -.045em; text-decoration: none; }
+.wordmark { display: inline-flex; align-items: center; gap: 9px; font-size: 15px; font-weight: 600; letter-spacing: -.045em; text-decoration: none; }
+.wordmark img { width: 26px; height: 26px; display: block; }
 .menu-button { border: 0; background: transparent; color: #222; display: grid; place-items: center; padding: 7px; cursor: pointer; }
 .menu-button:hover { opacity: .55; }
 .menu-panel { position: fixed; inset: 0; background: #fbfbfa; z-index: 3; padding: 132px max(44px, calc((100vw - 1500px) / 2 + 44px)); display: flex; flex-direction: column; gap: 10px; }
