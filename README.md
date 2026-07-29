@@ -1,77 +1,49 @@
-# React + TypeScript + Vite
+# Eiman John Espedido - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for Eiman John Espedido, a fresh Computer Engineering graduate pursuing two career paths: **Software Engineering** and **Cybersecurity**.
 
-Currently, two official plugins are available:
+The site presents production application-development experience alongside SOC monitoring, threat detection, incident-response support, and secure-development interests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Transparency and credits
 
-## React Compiler
+This portfolio was not designed from a blank slate.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- The visual direction was inspired by [Sean O'Shea's portfolio](https://seanoshea.me/), especially its editorial typography, restrained layout, section dividers, and sticky section labels.
+- The implementation and adaptation were created with AI assistance through ChatGPT/Codex, working from Eiman's feedback and reference material.
+- The biographical information, experience, skills, project descriptions, contact details, and resumes are Eiman's own materials. They were supplied from his resumes and incorporated into the site.
+- The `EJ Espedido` monogram was made specifically for this portfolio, inspired by a reference image supplied by Eiman.
 
-Note: This will impact Vite dev & build performances.
+In short: the design inspiration and AI assistance are acknowledged; the professional experience and personal details belong to Eiman.
 
-## Expanding the ESLint configuration
+## Tech stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Run locally
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Build for production
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm run build
 ```
+
+## Included resumes
+
+Both current resumes are served from the `public/` folder and linked from the portfolio:
+
+- Software Engineering resume
+- Cybersecurity resume
+
+## Contact
+
+- Email: [eimanj.espedido@gmail.com](mailto:eimanj.espedido@gmail.com)
+- GitHub: [@EjayEspedido](https://github.com/EjayEspedido)
