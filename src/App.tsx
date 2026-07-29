@@ -78,6 +78,7 @@ export default function App() {
         <Section title="Elsewhere" id="contact">
           <Detail label="email"><a href="mailto:eimanj.espedido@gmail.com">eimanj.espedido@gmail.com</a><br /><span className="detail-muted">+63 945-869-5898</span></Detail>
           <Detail label="github"><a href="https://github.com/EjayEspedido" target="_blank" rel="noreferrer">github.com/EjayEspedido ↗</a></Detail>
+          <Detail label="resumes"><a href="/Eiman_Espedido_Resume_Software_2026_07.pdf" target="_blank" rel="noreferrer">Software Engineering resume ↗</a><br /><a href="/Eiman_Espedido_Resume_Cybersecurity_2026_07.pdf" target="_blank" rel="noreferrer">Cybersecurity resume ↗</a></Detail>
           <Detail label="availability">A fresh graduate open to junior software engineering and cybersecurity roles, especially application development, SOC monitoring, blue-team operations, and secure software development.</Detail>
         </Section>
       </main>
